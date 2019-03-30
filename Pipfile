@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sanic = "*"
+tortoise-orm = "*"
+werkzeug = "*"
+aiomysql = "*"
+click = "*"
+mypy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
