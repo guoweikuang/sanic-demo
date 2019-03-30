@@ -10,6 +10,12 @@ werkzeug = "*"
 aiomysql = "*"
 click = "*"
 mypy = "*"
+sanic-oauth = "*"
+sanic-session = "*"
+aiotask-context = "*"
+aiomcache = "*"
+aioredis = "*"
+sanic-mako = "*"
 
 [dev-packages]
 

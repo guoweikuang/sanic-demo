@@ -1,5 +1,10 @@
+import aiotask_context as context
 from tortoise import Tortoise
+from sanic_mako import SanicMako
+
 from config import config
+
+mako = SanicMako()
 
 
 async def init_db(create_db=False):
